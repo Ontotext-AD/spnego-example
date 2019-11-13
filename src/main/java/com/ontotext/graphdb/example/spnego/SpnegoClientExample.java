@@ -61,7 +61,7 @@ public class SpnegoClientExample extends AbstractExample {
         AbstractExample example = new SpnegoClientExample();
         // If parameter is true login will use ticket cache, if false it will use username/password.
         // Use "kinit" to create a ticket in the cache.
-        example.login(true);
+        example.login(false);
         example.run();
     }
 }
